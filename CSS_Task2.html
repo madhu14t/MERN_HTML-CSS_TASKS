@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS_Task2</title>
+        <style>
+                .vertical{
+                    float:left;
+                    margin:1% 1%;
+                    border:1px solid black;
+                    padding:10px 5px;
+                    width: 30%;
+                }
+                .vertical a{
+                    display: block;
+                    color:blue;
+                    background-color:skyblue;
+                    padding: 10px 16px;
+                    text-decoration: none;
+                }
+                .vertical a:hover{
+                    background-color:orange;
+                    color: white;
+
+                }
+                .horizontal{
+                    border: 1px solid black;
+                    padding: 5px;
+                    float: left;
+                    margin-left: 10%;
+                    margin-top: 10%;
+                    width: 50%;                   
+                }
+                .horizontal a{
+                    float: left;
+                    display: block;
+                    color:blue;
+                    border-right:1px solid blue;
+                    flex-wrap: wrap;
+                    background-color:#f1f1f1;
+                    padding:10px 16px;
+                    text-decoration: none;
+                }
+                .horizontal a:hover{
+                    background-color: gray;
+                    color:white;
+                }
+                .container{
+                overflow: hidden;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="vertical">
+                <a href="./css_task2.html" style="background-color: orange;  color:white;">Home </a>
+                <a href="https://www.javatpoint.com/java-tutorial">java</a>
+                <a href="https://www.javatpoint.com/html-tutorial">HTML</a>
+                <a href="https://www.javatpoint.com/css-tutorial">CSS</a>
+                <a href="https://www.javatpoint.com/bootstrap-tutorial">Bootstrap</a>
+
+            </div>
+            <div class="horizontal">
+                <a href="./css_task2.html" style="background-color:gray; color:white;">Home</a>
+                <a href="https://www.javatpoint.com/java-tutorial">java</a>
+                <a href="https://www.javatpoint.com/html-tutorial">HTML</a>
+                <a href="https://www.javatpoint.com/css-tutorial">CSS</a>
+                <a href="https://www.javatpoint.com/bootstrap-tutorial">Bootstrap</a>
+
+            </div>
+
+        </div>
+    </body>
+</html>
